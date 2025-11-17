@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 🎯 Tic-Tac-Toe Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React frontend for a full-stack Tic-Tac-Toe game with complete user authentication and profile management.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **🎮 Interactive Tic-Tac-Toe Game** - Complete game logic with win detection and move history
+- **🔐 User Authentication** - JWT-based login/register with secure token storage
+- **🛡️ Protected Routes** - Game and profile pages require authentication
+- **👤 User Profiles** - Update username and upload profile pictures
+- **🔒 Password Management** - Secure password change functionality
+- **📱 Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+- **🎨 Modern UI** - Clean, intuitive interface with smooth animations
+- **⚡ Real-time Game State** - Live game updates and move tracking
+- **🔄 Game History** - Review and replay all moves during gameplay
+- **📤 File Upload** - Profile picture upload with validation
+- **🚀 Error Handling** - Comprehensive error messages and loading states
 
-### `npm start`
+## 🚀 Quick Start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+# Install dependencies
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Start development server
+npm start
 
-### `npm test`
+# Run for test 
+npm run dev
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Environment Setup
 
-### `npm run build`
+Create a `.env` file:
+```env
+REACT_APP_API_BASE_URL=http://{backend_url:port}/api
+REACT_APP_UPLOADS_URL=http://{backend_url:port}
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React 18** - Frontend framework
+- **React Router** - Client-side routing
+- **Axios** - API communication
+- **Context API** - State management
+- **CSS3** - Styling with modern features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The frontend connects to a Node.js/Express backend with MongoDB for complete full-stack functionality.
