@@ -46,3 +46,5 @@ REACT_APP_UPLOADS_URL=http://{backend_url:port}
 - **CSS3** - Styling with modern features
 
 The frontend connects to a Node.js/Express backend with MongoDB for complete full-stack functionality.
+
+Link to Backend: https://github.com/blackTopHatCat/vibe-coding-pweb-server-007
